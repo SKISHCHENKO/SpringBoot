@@ -1,4 +1,4 @@
-## Приложения Spring Boot ##
+## Приложение Spring Boot ##
 
 ### 1. Configuration ###
 Класс JavaConfig:       
