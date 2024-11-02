@@ -5,7 +5,7 @@
 - Определяет бины для различных профилей (DevProfile, ProductionProfile) с использованием аннотации @Configuration.  
 - Использует аннотации @ConditionalOnProperty для создания нужного профиля в зависимости от конфигурации.  
 
-### 2. Model ###
+### 2. Profiles ###
 
 Интерфейс SystemProfile: 
 - Определяет контракт для профилей системы,предоставляя метод getProfile().  
@@ -13,7 +13,7 @@
 - Реализуют интерфейс SystemProfile   
 - предоставляют конкретные реализации метода getProfile() для различных окружений.  
 
-### 3. Controller Layer ###
+### 3. Controller ###
 
 Класс ProfileController:
 - Обрабатывает HTTP-запросы, предоставляя REST API.  
